@@ -8,7 +8,7 @@ import uz.pdp.appjpawarehouse.payload.Result;
 import uz.pdp.appjpawarehouse.service.InputProductService;
 
 @RestController
-@RequestMapping(value = "inputProduct")
+@RequestMapping(value = "/inputProduct")
 public class InputProductController {
 
     final InputProductService inputProductService;

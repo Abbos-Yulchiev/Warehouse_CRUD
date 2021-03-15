@@ -10,7 +10,7 @@ import uz.pdp.appjpawarehouse.payload.Result;
 import uz.pdp.appjpawarehouse.service.OutputProductService;
 
 @RestController
-@RequestMapping(value = "inputProduct")
+@RequestMapping(value = "/outputProduct")
 public class OutputProductController {
 
     final OutputProductService outputProductService;
